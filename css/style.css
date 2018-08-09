@@ -630,4 +630,20 @@ header {
         margin-bottom: 10px;
         background-repeat: no-repeat; }
 
+.reviews-wrapp {
+  display: flex; }
+  .reviews-wrapp .left-side {
+    width: 800px;
+    position: relative;
+    flex-shrink: 0; }
+    .reviews-wrapp .left-side .slider-wrapp-rev .one-slide .flex-review {
+      display: flex; }
+      .reviews-wrapp .left-side .slider-wrapp-rev .one-slide .flex-review .image {
+        min-height: 380px;
+        width: 40%;
+        background-size: cover;
+        background-position: center; }
+      .reviews-wrapp .left-side .slider-wrapp-rev .one-slide .flex-review .description {
+        width: 60%; }
+
 /*# sourceMappingURL=style.css.map */

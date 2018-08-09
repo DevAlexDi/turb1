@@ -828,4 +828,28 @@ header{
         }
     }
 }
-
+.reviews-wrapp{
+    display: flex;
+    .left-side{
+        width: 800px;
+        position: relative;
+        flex-shrink: 0;
+        .slider-wrapp-rev{
+            .one-slide{
+                .flex-review{
+                    display: flex;
+                    .image{
+                        min-height: 380px;
+                        width: 40%;
+                        background-size: cover;
+                        background-position: center;
+                        
+                    }
+                    .description{
+                        width: 60%;
+                    }
+                }
+            }
+        }
+    }
+}
