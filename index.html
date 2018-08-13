@@ -18,7 +18,7 @@
    
     <header>
         <div class="left-side">
-            <button class="ham-menu">
+            <button class="ham-menu nav-button-1">
                 <span class="lines-wrapp">
                     <span class="line"></span>
                     <span class="line"></span>
@@ -34,8 +34,8 @@
         </div>
         <div class="right-side">
             <form>
-                <input type="text" placeholder="Поиск по каталогу">
-<!--                    <button type="submit"></button>-->
+                <button type="submit"></button>
+                <input type="text" class="focus-click" placeholder="Поиск по каталогу">
             </form>
             <div class="contacts">
                 <a href="#" class="cont-text">
@@ -75,68 +75,72 @@
             </div>
         </div>
     </header>
-    <section class="main-menu">
+    <section class="main-menu nav-holder-4">
         <div class="scroll-wrapp">
             <nav>
-                <div class="menu-text">
-                    <button class="ham-menu close-menu">
-                        <span class="lines-wrapp">
-                            <span class="line"></span>
-                            <span class="line"></span>
-                            <span class="line"></span>
-                        </span>
-                        <span class="text">
-                            Меню
-                        </span>
-                    </button>
+                <div class="top-side">
+                    <div class="menu-text">
+                        <button class="ham-menu close-menu">
+                            <span class="lines-wrapp">
+                                <span class="line"></span>
+                                <span class="line"></span>
+                                <span class="line"></span>
+                            </span>
+                            <span class="text">
+                                Меню
+                            </span>
+                        </button>
+                    </div>
+                    <ul class="first-lvl-menu">
+                        <li class="first-lvl-menu-item click-open">
+                            <span class="first-lvl-menu-link">Услуги</span>
+                            <ul class="second-lvl-menu">
+                                <li class="second-lvl-menu-item">
+                                    <a href="#">Монтаж/демонтаж турбин</a>
+                                </li>
+                                <li class="second-lvl-menu-item">
+                                    <a>Монтаж/демонтаж турбин</a>
+                                </li>
+                                <li class="second-lvl-menu-item">
+                                    <a>Монтаж/демонтаж турбин</a>
+                                </li>
+                                <li class="second-lvl-menu-item">
+                                    <a>Монтаж/демонтаж турбин</a>
+                                </li>
+                                <li class="second-lvl-menu-item">
+                                    <a>Монтаж/демонтаж турбин</a>
+                                </li>
+                                <li class="second-lvl-menu-item">
+                                    <a>Монтаж/демонтаж турбин</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="first-lvl-menu-item">
+                            <a href="#" class="first-lvl-menu-link">Каталог турбин</a>
+                        </li>
+                        <li class="first-lvl-menu-item">
+                            <a href="#" class="first-lvl-menu-link">О компании</a>
+                        </li>
+                        <li class="first-lvl-menu-item">
+                            <a href="#" class="first-lvl-menu-link">Новости</a>
+                        </li>
+                        <li class="first-lvl-menu-item">
+                            <a href="#" class="first-lvl-menu-link">Клиентам</a>
+                        </li>
+                        <li class="first-lvl-menu-item">
+                            <a href="#" class="first-lvl-menu-link">Контакты</a>
+                        </li>
+                    </ul>
+                    <span class="politics">Политика конфеденциальности</span>
                 </div>
-                <ul class="first-lvl-menu">
-                    <li class="first-lvl-menu-item">
-                        <span  class="first-lvl-menu-link">Услуги</span>
-                        <ul class="second-lvl-menu">
-                            <li class="second-lvl-menu-item">
-                                <a>Монтаж/демонтаж турбин</a>
-                            </li>
-                            <li class="second-lvl-menu-item">
-                                <a>Монтаж/демонтаж турбин</a>
-                            </li>
-                            <li class="second-lvl-menu-item">
-                                <a>Монтаж/демонтаж турбин</a>
-                            </li>
-                            <li class="second-lvl-menu-item">
-                                <a>Монтаж/демонтаж турбин</a>
-                            </li>
-                            <li class="second-lvl-menu-item">
-                                <a>Монтаж/демонтаж турбин</a>
-                            </li>
-                            <li class="second-lvl-menu-item">
-                                <a>Монтаж/демонтаж турбин</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="first-lvl-menu-item">
-                        <a href="#" class="first-lvl-menu-link">Каталог турбин</a>
-                    </li>
-                    <li class="first-lvl-menu-item">
-                        <a href="#" class="first-lvl-menu-link">О компании</a>
-                    </li>
-                    <li class="first-lvl-menu-item">
-                        <a href="#" class="first-lvl-menu-link">Новости</a>
-                    </li>
-                    <li class="first-lvl-menu-item">
-                        <a href="#" class="first-lvl-menu-link">Клиентам</a>
-                    </li>
-                    <li class="first-lvl-menu-item">
-                        <a href="#" class="first-lvl-menu-link">Контакты</a>
-                    </li>
-                </ul>
-                <span class="politics">Политика конфеденциальности</span>
+                <div class="image-menu">
+                    <img src="img/ten-years.jpg" class="img-responsive" alt="">
+                </div>
             </nav>
-            <div class="image-menu">
-                <img src="img/ten-years.jpg" class="img-responsive" alt="">
-            </div>
+            
         </div>
     </section>
+    <div class="mask-nav-3"></div>
     <section class="main-content">
         <section class="main-baner">
             <div class="main-slider-init">
@@ -656,7 +660,9 @@
                 <p class="after-head-descr less-margin more-width">Основная специализация нашего автосервиса- это ремонт турбин, которым мы занимаемся с 2006года. Наша команда высококлассных мастеров обладает колоссальным опытом. Мы осуществляем безошибочную диагностику любых неисправностей турбин и сопредельных систем автомобиля. 
                 </p>
                 <p class="after-head-descr more-width">Дальнейший ремонт всегда осуществляеться с первого раза, качественно, с официальной гарантией и за разумные деньги.Несколько подьемников  позволяют производить снятие, установку и замену турбин даже с самых “сложных” машин. У нас есть все необходимое, чтобы вы ездили  на своем автомобиле долгое время!</p>
-                <div class="container">
+                
+             </div>
+            <div class="container">
                     <div class="row">
                         <div class="col-md-8">
                             <div class="v-player">
@@ -672,7 +678,6 @@
                         </div>
                     </div>
                 </div>
-             </div>
         </section>
         <section class="form-callback-wrapp">
             <div class="main-m-w">
