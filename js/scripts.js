@@ -5,7 +5,15 @@ $(document).ready(function () {
         speed: 500,
         fade: true,
         cssEase: 'linear',
-        arrows: false
+        arrows: false,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    dots:false
+                }
+            }
+        ]
     });
 //    
 //    $('.tel-init').inputmask({
@@ -136,3 +144,4 @@ $(document).ready(function () {
         }
     })
 });
+

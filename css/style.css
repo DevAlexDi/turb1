@@ -1464,4 +1464,136 @@ footer .bott {
     border-radius: 2.5px;
     cursor: pointer; }
 
+.breads {
+  padding: 10px 0;
+  list-style: none;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap; }
+  .breads li {
+    padding-right: 27px;
+    font-size: 12px;
+    position: relative;
+    margin-bottom: 10px; }
+    .breads li:after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 50%;
+      right: 11px;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: #6f8f9d;
+      transform: translateY(-50%); }
+    .breads li:last-child:after {
+      display: none; }
+    .breads li a {
+      color: #000; }
+
+.other-page-contant h1 {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin-bottom: 30px; }
+
+.news-wrapp.news-newspage .main-m-w {
+  max-width: 1415px; }
+
+.one-new-main-wrapper .text-wrapper {
+  margin-bottom: 60px; }
+  .one-new-main-wrapper .text-wrapper .head-new {
+    position: relative;
+    padding-right: 130px;
+    margin-bottom: 35px; }
+    .one-new-main-wrapper .text-wrapper .head-new h1 {
+      max-width: 1000px;
+      font-size: 18px;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      margin-bottom: 0; }
+    .one-new-main-wrapper .text-wrapper .head-new .when {
+      position: absolute;
+      top: 0;
+      right: 0;
+      font-size: 14px; }
+  .one-new-main-wrapper .text-wrapper h2, .one-new-main-wrapper .text-wrapper h3, .one-new-main-wrapper .text-wrapper h4, .one-new-main-wrapper .text-wrapper h5, .one-new-main-wrapper .text-wrapper h6 {
+    margin-bottom: 20px;
+    max-width: 1000px;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700; }
+  .one-new-main-wrapper .text-wrapper p {
+    font-size: 14px;
+    max-width: 1000px; }
+  .one-new-main-wrapper .text-wrapper .image-bg {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 30px; }
+    .one-new-main-wrapper .text-wrapper .image-bg:before {
+      content: '';
+      display: block;
+      padding-top: 54%;
+      position: relative; }
+    .one-new-main-wrapper .text-wrapper .image-bg .image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: center no-repeat;
+      background-size: cover; }
+.one-new-main-wrapper h6 {
+  margin-bottom: 25px;
+  max-width: 1000px;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700; }
+
+.turbina-model-wrapp .image-model {
+  height: 275px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative; }
+.turbina-model-wrapp .name-brand {
+  display: block;
+  font-size: 21px;
+  text-align: center;
+  color: #000;
+  margin-bottom: 20px; }
+  .turbina-model-wrapp .name-brand span {
+    text-transform: uppercase;
+    color: #6f8f9d; }
+.turbina-model-wrapp .list-model {
+  padding: 0;
+  margin: 0 auto 40px;
+  max-width: 1060px;
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .turbina-model-wrapp .list-model li a {
+    display: block;
+    padding: 5px 11px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #000;
+    transition: 0.3s; }
+    .turbina-model-wrapp .list-model li a:hover {
+      background: #6f8f9d;
+      color: #fff; }
+
+.seo-text-wrapp-category {
+  margin-bottom: 70px; }
+  .seo-text-wrapp-category h1, .seo-text-wrapp-category h2, .seo-text-wrapp-category h3, .seo-text-wrapp-category h4, .seo-text-wrapp-category h5, .seo-text-wrapp-category h6 {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 14px; }
+  .seo-text-wrapp-category p {
+    margin-bottom: 25px; }
+
 /*# sourceMappingURL=style.css.map */
