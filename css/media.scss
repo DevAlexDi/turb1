@@ -113,6 +113,15 @@
     footer .top .main-m-w .left-side .second .flex-tel{
         display: block;
     }
+    
+    .flex-turbo-char .img-turb{
+        display: none;
+    }
+    .flex-turbo-char .right-side-char{
+        width: 100%;
+        padding-left: 0;
+    }
+    
 }
 @media (max-width: 1050px) {
     .sec-slider-category .after-head-descr{
@@ -541,8 +550,15 @@
         font-size: 14px;
     }
     
-    
-    
+    .flex-turbo-char .right-side-char .one-turbo .row{
+        display: block;
+        .col-sm-3{
+            margin-bottom: 20px;
+        }
+    }
+    .col-xs-12{
+        max-width: 100%!important;
+    }
     
     
     
