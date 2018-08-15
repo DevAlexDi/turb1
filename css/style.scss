@@ -1439,6 +1439,43 @@ header.scrolled .contacts .cont-text{
             }
         }
     }
+
+    &.contacts_content {
+        .main-m-w {
+            .left-side {
+                padding: 20px 15px;
+
+                .l-s-block {
+                    p {
+                        &.wt {
+                            color: #7e7e7e;
+                            font-size: 14px;
+                        }
+                    }
+
+                    .phones {
+                        display: flex;
+
+                        a {
+                            display: block;
+                            margin-right: 45px;
+                        }
+                    }
+
+                    a {
+                        font: 20px $m;
+                        color: black;
+                        font-weight: 700;
+                    }
+                }
+            }
+
+            .right-side {
+                height: calc(100% + 235px);
+                top: -184px;
+            }
+        }
+    }
 }
 .checkbox-wr{
     display: flex;
@@ -2155,5 +2192,25 @@ footer{
     }
 }
 
+#map {
+    height: 565px;
+    position: relative;
 
+    &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: rgba(0,0,0,0.45);
+    }
+
+    &.light {
+        &:after {
+            display: none;
+        }
+    }
+}
 

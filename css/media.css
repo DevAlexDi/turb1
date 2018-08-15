@@ -1,13 +1,20 @@
 @media (max-width: 1680px) {
   header .abs-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center; } }
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; } }
 @media (max-width: 1450px) {
   .reviews-wrapp .left-side .shadowed-img {
     left: calc(100% - 29px); }
 
   .reviews-wrapp .left-side .shadowed-img.img-2 {
-    left: calc(100% + 1px); } }
+    left: calc(100% + 1px); }
+
+  .form-callback-wrapp .main-m-w .right-side {
+    right: 100px; } }
 @media (max-width: 1350px) {
   .main-baner .main-slider-init .slide {
     height: 760px; }
@@ -58,7 +65,9 @@
     width: 33.33%; }
 
   .sec-lvl-3 .main-m-w.column4 {
-    justify-content: center; }
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
 
   .price-section .flex-price-content {
     display: block; }
@@ -72,7 +81,8 @@
     padding-left: 0; }
 
   .sec-slider-category .sliders-wrapp .sliders-for .slider-ekz .one-slide.slick-center .one-slide-content {
-    transform: none; }
+    -webkit-transform: none;
+            transform: none; }
 
   .reviews-wrapp {
     display: block; }
@@ -91,7 +101,8 @@
     margin-bottom: 60px; }
 
   .form-callback-wrapp .main-m-w .right-side {
-    width: calc(40% - 30px); }
+    width: calc(40% - 30px);
+    right: 50px; }
 
   .news-wrapp .main-m-w .one-new-wrapp .one-new .name-new {
     height: 135px; }
@@ -107,7 +118,10 @@
 
   .flex-turbo-char .right-side-char {
     width: 100%;
-    padding-left: 0; } }
+    padding-left: 0; }
+
+  #map {
+    height: 400px; } }
 @media (max-width: 1050px) {
   .sec-slider-category .after-head-descr {
     width: auto; } }
@@ -168,8 +182,11 @@
     display: none; }
 
   .gray-bg-opp .for-max-width {
-    flex-wrap: wrap;
-    justify-content: center; }
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
 
   .gray-bg-opp .for-max-width .some-logo {
     width: 33.33%; }
@@ -207,6 +224,9 @@
   .form-callback-wrapp .main-m-w .left-side .second-text {
     margin-bottom: 30px; }
 
+  .form-callback-wrapp .main-m-w .right-side {
+    right: auto; }
+
   .news-wrapp .main-m-w .one-new-wrapp.big {
     width: 100%; }
 
@@ -220,7 +240,8 @@
     height: 295px; }
 
   footer .top .main-m-w {
-    flex-wrap: wrap; }
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
 
   footer .top .main-m-w .side {
     width: 50%;
@@ -265,13 +286,20 @@
     min-height: 400px; }
 
   .sec-slider-category .sliders-wrapp .sliders-for .slider-ekz .one-slide .one-slide-content .descr a {
-    font-size: 14px; } }
+    font-size: 14px; }
+
+  .form-callback-wrapp.contacts_content .main-m-w .right-side {
+    top: 0; }
+
+  #map:after {
+    display: none; } }
 @media (max-width: 767px) {
   header .abs-logo {
     position: relative;
     top: 0;
     left: 0;
-    transform: none; }
+    -webkit-transform: none;
+            transform: none; }
 
   header {
     display: block;
@@ -284,7 +312,8 @@
     display: block; }
 
   .price-section .flex-price-content .right-side .bg-block.second-bl .flex-one-price {
-    flex-wrap: wrap; }
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
 
   .price-section .flex-price-content .right-side .bg-block.second-bl .flex-one-price p.velue-1 {
     width: 50%; }
@@ -293,7 +322,8 @@
     width: 50%; }
 
   .price-section .flex-price-content .right-side .head-wrapp-flex {
-    flex-wrap: wrap; }
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
 
   .price-section .flex-price-content .right-side .head-wrapp-flex .head {
     width: 100%; }
@@ -312,8 +342,11 @@
     width: 100%; }
 
   .sec-slider-category .sliders-wrapp .sldier-navigation .nav-tabs {
-    flex-wrap: wrap;
-    justify-content: center; }
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
 
   .sec-slider-category .sliders-wrapp .sldier-navigation .category li {
     width: auto; }
@@ -367,7 +400,9 @@
     display: none; }
 
   header .right-side {
-    justify-content: flex-end; }
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
 
   header form {
     border-left: none; }
@@ -382,7 +417,8 @@
     width: 100%; }
 
   .price-section .flex-price-content .left-side .bg-block .flex-one-price {
-    flex-wrap: wrap; }
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
 
   .price-section .flex-price-content .left-side .bg-block .flex-one-price p.key {
     width: 100%; }
@@ -397,7 +433,8 @@
     padding: 20px 15px; }
 
   .price-section .flex-price-content .right-side .bg-block.not-flex .flex-one-price {
-    flex-wrap: wrap; }
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
 
   .price-section .flex-price-content .right-side .bg-block.not-flex .flex-one-price p.key {
     font-weight: 700; }
@@ -459,6 +496,8 @@
     height: 112px; }
 
   .flex-on-sm {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex; }
 
   .cover-iframe:first-child {
@@ -528,6 +567,12 @@
       margin-bottom: 20px; }
 
   .col-xs-12 {
-    max-width: 100% !important; } }
+    max-width: 100% !important; }
+
+  #map {
+    height: 300px; }
+
+  .form-callback-wrapp.contacts_content .main-m-w .left-side .l-s-block .phones {
+    display: block; } }
 
 /*# sourceMappingURL=media.css.map */

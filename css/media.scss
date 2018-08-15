@@ -11,6 +11,9 @@
     .reviews-wrapp .left-side .shadowed-img.img-2 {
         left: calc(100% + 1px);
     }
+    .form-callback-wrapp .main-m-w .right-side {
+        right: 100px;
+    }
 }
 @media (max-width: 1350px) {
     .main-baner .main-slider-init .slide {
@@ -103,6 +106,7 @@
     }
     .form-callback-wrapp .main-m-w .right-side{
             width: calc(40% - 30px);
+        right: 50px;
     }
     .news-wrapp .main-m-w .one-new-wrapp .one-new .name-new{
         height: 135px;
@@ -120,6 +124,10 @@
     .flex-turbo-char .right-side-char{
         width: 100%;
         padding-left: 0;
+    }
+
+    #map {
+        height: 400px;
     }
     
 }
@@ -226,6 +234,9 @@
     .form-callback-wrapp .main-m-w .left-side .second-text{
         margin-bottom: 30px;
     }
+    .form-callback-wrapp .main-m-w .right-side {
+        right: auto;
+    }
     .news-wrapp .main-m-w .one-new-wrapp.big{
         width: 100%;
     }
@@ -286,6 +297,13 @@
     }
     .sec-slider-category .sliders-wrapp .sliders-for .slider-ekz .one-slide .one-slide-content .descr a{
         font-size: 14px;
+    }
+
+    .form-callback-wrapp.contacts_content .main-m-w .right-side {
+        top: 0;
+    }
+    #map:after {
+        display: none;
     }
 }
 @media (max-width: 767px) {
@@ -560,7 +578,13 @@
         max-width: 100%!important;
     }
     
-    
+    #map {
+        height: 300px;
+    }
+
+    .form-callback-wrapp.contacts_content .main-m-w .left-side .l-s-block .phones {
+        display: block;
+    }
     
     
     
